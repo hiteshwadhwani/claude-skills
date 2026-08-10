@@ -1,6 +1,6 @@
 # claude-skills
 
-Personal Claude Code plugin marketplace.
+A Claude Code plugin marketplace with skills for learning-by-simulation workflows.
 
 ## Install
 
