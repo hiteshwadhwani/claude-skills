@@ -16,6 +16,7 @@ Never skip a phase. The accuracy review (Phase 2) is the entire reason this meth
 - No emojis anywhere: not in documents, not in the simulation UI, not in your replies.
 - Do not dumb the content down. Use the real technical terms and define them in place. The reader is a technical adult, not a child.
 - Prefer concrete numbers with units over adjectives ("a 13.5 nm wavelength" beats "an extremely small wavelength").
+- Always answer the origin question. For every design choice, state why it is this way and not the obvious alternative — why this stage exists at all, why this method beat the one it replaced. "VQ-VAE uses discrete latents" is trivia; "discrete latents, because X breaks under continuous ones" is understanding. A claim without its why is not done.
 
 ## Phase 1 — Build the knowledge base
 
@@ -33,6 +34,7 @@ Three or four sentences: what goes in, what comes out, why it is hard.
 - What happens: the actual mechanism, with key numbers (temperatures, durations, tolerances, costs)
 - Output: what leaves, and how it visibly differs from the input
 - Where it happens: machine/facility name, notable vendors if relevant
+- Why this way: the constraint that forces this method — what breaks with the obvious alternative, or what this replaced and why
 - Common misconception: one thing people usually get wrong about this stage
 
 ### Stage 2: ...

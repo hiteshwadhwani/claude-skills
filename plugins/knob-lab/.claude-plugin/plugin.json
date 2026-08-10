@@ -1,0 +1,11 @@
+{
+  "name": "knob-lab",
+  "description": "Build causal intuition for a topic through an interactive sandbox: drag sliders for the real governing parameters and watch the system respond, with the sourced equations shown.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hitesh Wadhwani"
+  },
+  "repository": "https://github.com/hiteshwadhwani/claude-skills",
+  "license": "MIT",
+  "keywords": ["learning", "simulation", "sandbox", "education"]
+}

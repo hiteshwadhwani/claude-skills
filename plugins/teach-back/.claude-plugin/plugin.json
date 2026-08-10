@@ -1,0 +1,11 @@
+{
+  "name": "teach-back",
+  "description": "Retention through retrieval practice: you explain a topic in your own words, get graded against a verified knowledge base, and are re-taught only your actual gaps.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hitesh Wadhwani"
+  },
+  "repository": "https://github.com/hiteshwadhwani/claude-skills",
+  "license": "MIT",
+  "keywords": ["learning", "retrieval-practice", "feynman", "education"]
+}

@@ -10,6 +10,36 @@
       "name": "tycoon-sim",
       "source": "./plugins/tycoon-sim",
       "description": "Learn how complex processes work via RollerCoaster Tycoon-style interactive simulations, with an adversarial accuracy-review phase to keep them hallucination-free."
+    },
+    {
+      "name": "depth-dial",
+      "source": "./plugins/depth-dial",
+      "description": "One topic at five zoom levels on one page: every claim expands one level deeper in place, so the reader controls depth per-concept."
+    },
+    {
+      "name": "anatomy",
+      "source": "./plugins/anatomy",
+      "description": "Learn a system's structure via an interactive exploded-view diagram: click components for role, interfaces, design rationale, and failure propagation."
+    },
+    {
+      "name": "teach-back",
+      "source": "./plugins/teach-back",
+      "description": "Retention through retrieval practice: explain the topic in your own words, get graded against a verified knowledge base, get re-taught only your gaps."
+    },
+    {
+      "name": "knob-lab",
+      "source": "./plugins/knob-lab",
+      "description": "Causal intuition via an interactive sandbox: sliders for the real governing parameters, live charts, sourced equations, honest regime warnings."
+    },
+    {
+      "name": "paper-walkthrough",
+      "source": "./plugins/paper-walkthrough",
+      "description": "Turn a dense paper into a verified interactive companion: notation glossary, figures re-explained, two-depth sections, design decisions with their why."
+    },
+    {
+      "name": "prereq-map",
+      "source": "./plugins/prereq-map",
+      "description": "Find where your knowledge actually ends: prerequisite graph, short calibration diagnostic, shortest learning path routed to the right learning skill."
     }
   ]
 }

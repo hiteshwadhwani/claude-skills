@@ -1,0 +1,11 @@
+{
+  "name": "anatomy",
+  "description": "Learn how a complex system is built via an interactive exploded-view diagram: click any component to learn its role, its interfaces to neighbors, and what fails without it.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hitesh Wadhwani"
+  },
+  "repository": "https://github.com/hiteshwadhwani/claude-skills",
+  "license": "MIT",
+  "keywords": ["learning", "systems", "visualization", "education"]
+}

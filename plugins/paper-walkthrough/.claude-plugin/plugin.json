@@ -1,0 +1,11 @@
+{
+  "name": "paper-walkthrough",
+  "description": "Turn a dense paper into a verified interactive companion: notation glossary, figures re-explained, every section readable at two depths, prerequisite concepts surfaced.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hitesh Wadhwani"
+  },
+  "repository": "https://github.com/hiteshwadhwani/claude-skills",
+  "license": "MIT",
+  "keywords": ["learning", "research", "papers", "education"]
+}
