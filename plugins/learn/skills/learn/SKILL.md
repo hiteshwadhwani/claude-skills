@@ -98,7 +98,13 @@ Verify before declaring done: every concept present, centerpiece↔backbone link
 
 ## Phase 5 — Publish
 
-Offer GitHub Pages (create repo, push `index.html` + `KNOWLEDGE.md`, enable Pages via `gh api repos/<owner>/<repo>/pages -X POST -f 'source[branch]=main' -f 'source[path]=/'`) or an Artifact if available. Report the live URL, where `KNOWLEDGE.md` lives, and how many review rounds the content survived. For paper topics, never embed the paper's PDF or figures - link to the canonical source.
+Default: a single **library repo** named `learn`, one folder per topic - never one repo per topic.
+
+1. If `<owner>/learn` does not exist yet: create it (`gh repo create learn --public`), add a root `index.html` library page (simple card list: topic title, one-line description, kind of page, date - same typography as the topic pages, theme-aware), and enable Pages once via `gh api repos/<owner>/learn/pages -X POST -f 'source[branch]=main' -f 'source[path]=/'`. Clone lives at `~/projects/learn` or wherever the user keeps projects.
+2. Every run: add `<topic-slug>/index.html` + `<topic-slug>/KNOWLEDGE.md`, add a card for it to the root library index, commit, push. The page lands at `https://<owner>.github.io/learn/<topic-slug>/`.
+3. Only deviate (separate repo, or an Artifact if that tool is available) if the user asks for it - e.g. a page they want to share or delete independently of the library.
+
+Report the live URL, where `KNOWLEDGE.md` lives, and how many review rounds the content survived. For paper topics, never embed the paper's PDF or figures - link to the canonical source.
 
 ## Phase 6 — Teach-back (offer, don't force)
 
