@@ -1,7 +1,7 @@
 {
   "name": "learn",
   "description": "Learn any topic or paper deeply with one command: calibrates what you already know, researches a verified knowledge base, builds an interactive page in the representation that fits the topic's shape, then examines you on it.",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "author": {
     "name": "Hitesh Wadhwani"
   },
