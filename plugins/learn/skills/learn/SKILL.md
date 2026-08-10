@@ -10,6 +10,7 @@ One flow, six phases. The user gives a topic (or paper link); everything else is
 ## Style (all phases, non-negotiable)
 
 - No emojis anywhere: documents, page UI, replies.
+- **Plain English, no LLM prose.** Say only as much as the point needs, then stop. State the key claim first, then support it - never let it hide inside a paragraph of build-up or supporting detail. Cut throat-clearing ("it's worth noting", "importantly", "in essence"), hedging that adds no information, triadic flourishes ("not just X, but Y - and even Z"), and closing sentences that restate what was just said. One idea per sentence. Test for every sentence: if deleting it loses nothing the reader needs, delete it.
 - Real technical terms at every depth, defined in place. What varies between depth levels is how much mechanism is exposed, never vocabulary dumbing.
 - Concrete numbers with units over adjectives. Every non-obvious number carries a source.
 - **The origin question is mandatory.** Every design choice in the material must answer why it is this way and not the obvious alternative. "VQ-VAE uses discrete latents" is trivia; "discrete, because continuous latents let the decoder bypass the codebook - here is what broke" is understanding. A claim without its why is not done.
